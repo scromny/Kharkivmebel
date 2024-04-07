@@ -1,0 +1,97 @@
+.homepod {
+    .container {
+        padding: 0 20px;
+    }
+}
+.hpod {
+    background-color: #72BF44;
+    background-image: url("../../Lib/Img/PodBg1.png"), url("../../Lib/Img/PodBg2.png"), url(../../Lib/Img/PodBg3.png);
+    background-position: left top, bottom, right bottom;
+    background-repeat: no-repeat;
+    background-size: 110px, 1000px, 130px;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 8px;
+    .hpod__left {
+        margin-top: -30px;
+        .hpod__left--head {
+            color: #ffffff;
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 65.37px;
+            text-align: left;
+            margin-bottom: 0;
+        }
+        .hpod__left--text {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 32.68px;
+            text-align: left;
+            margin-top: -8px;
+        }
+    }
+    .hpod__right {
+        margin-bottom: -10px;
+        margin: 30px 0;
+        .hpod__right--form {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .hpod__form--i {
+                width: 420px;
+                color: #b9b9b9;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20.43px;
+                text-align: left;
+                padding: 14px 15px;
+                border-radius: 8px;
+                border: none;
+            }
+            .hpod__form--btn {
+                color: #ffffff;
+                background-color: #383838;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 21.79px;
+                text-align: left;
+                padding: 14px 34px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                border: none;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover {
+                background-color: #181818;
+                }
+            }
+        }
+        .hpod__right--box {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            .hpod__right--check {
+                width: 15px;
+                height: 15px;
+                cursor: pointer;
+                margin: 0;
+            }
+            .hpod__right--p {
+                color: #ffffff;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 17.7px;
+                text-align: left;
+                .hpod__right--span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.homepro {
+    .container {
+        max-width: 1920px;
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+.homepro__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .homepro__top--back,
+    .homepro__top--next {
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
+.homepro__heading {
+    color: #383838;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65.37px;
+    text-align: left;
+}
+.homepro__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.boxnav {
+    text-decoration: none;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.homepro__boxes--box {
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: rgba(238, 238, 238, 0.377);
+    transition: 0.2s all ease;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+}
+.homepro__boxes--img {
+    width: 280px;
+    height: 277px;
+}
+.homepro__boxes--imgs {
+    margin: 5px;
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+.homepro__boxes--like {
+    position: absolute;
+    transform: translate(230px, 5px);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+}
+.homepro__boxes--like:hover {
+    background-color: white;
+}
+.homepro__boxes--like1 {
+    border-radius: 50%;
+    padding: 10px;
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+    }
+}
+.homepro__boxes--title {
+    color: #1a1a1a;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: left;
+    margin: 10px 0 0 0;
+}
+.homepro__boxes--tbox {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: -10px;
+    .homepro__tbox--t1 {
+        color: #383838;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27.24px;
+        text-align: left;
+        margin: 0;
+    }
+    .homepro__tbox--t2 {
+        color: #D2CDCD;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.51px;
+        text-decoration: line-through;        
+    }
+}
